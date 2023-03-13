@@ -1,7 +1,6 @@
 package pl.marcelmudrak.krakow.uek;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 public class Greeter {
@@ -21,6 +20,8 @@ public class Greeter {
 
 //        names.stream()
 //                .filter(name -> name.endsWith("a"))
+//                .filter(name -> name.endsWith("A"))
+//                .map(String::toUpperCase)
 //                .forEach(greeter::greet);
 
     }

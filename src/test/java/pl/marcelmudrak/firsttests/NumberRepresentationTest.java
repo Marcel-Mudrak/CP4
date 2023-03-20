@@ -1,4 +1,4 @@
-package pl.marcelmudrak.creditcard;
+package pl.marcelmudrak.firsttests;
 
 import org.junit.jupiter.api.Test;
 

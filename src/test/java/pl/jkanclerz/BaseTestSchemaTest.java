@@ -1,18 +1,18 @@
-package pl.marcelmudrak.firsttests;
+package pl.jkanclerz;
 
 import org.junit.jupiter.api.Test;
 
-public class yTest {
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
+public class BaseTestSchemaTest {
     @Test
-    void firstRun() {
+    void itMyFirstTestRun() {
         boolean value = true;
-
-//        assertTrue(value);
+        assertTrue(value);
     }
 
     @Test
-    void secondRun() {
+    void my2ndTest() {
         boolean value = false;
     }
 
@@ -22,6 +22,6 @@ public class yTest {
 
         //Act // When // Action
 
-        //Assertion // Then // Expected // Output
+        //Assert // Then // Expected // Output
     }
 }
